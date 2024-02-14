@@ -2,20 +2,18 @@
 <manifest>
 
     <!--Remotes-->
-    <remote name="dependencies"    fetch="https://github.com/linux4-bringup-priv"/>
-    <remote name="d1x"             fetch="https://github.com/Rocky7842"/>
+    <remote name="dependencies"    fetch="https://github.com/BananaDroid-982x"/>
 
     <!--Devices Trees-->
-    <project path="device/samsung/d2x" remote="github" name="BananaDroid-982x/android_device_samsung_d2x" revision="banana" />
-    <project path="device/samsung/d1x" remote="github" name="BananaDroid-982x/android_device_samsung_d1x" revision="banana" />
-    <project path="device/samsung/d2s" remote="github" name="BananaDroid-982x/android_device_samsung_d2s" revision="banana" />
-    <project path="device/samsung/d1" remote="github" name="BananaDroid-982x/android_device_samsung_d1" revision="banana" />
-    <project path="device/samsung/beyond2lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond2lte" revision="banana" />
-    <project path="device/samsung/beyond1lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond1lte" revision="banana" />
-    <project path="device/samsung/beyond0lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond0lte" revision="banana" />
-    <project path="device/samsung/beyondx" remote="github" name="BananaDroid-982x/android_device_samsung_beyondx" revision="banana" />
-    <project path="device/samsung/f62" remote="github" name="BananaDroid-982x/android_device_samsung_f62" revision="banana" />
-    <project path="device/samsung/exynos9820-common" remote="github" name="BananaDroid-982x/android_device_samsung_exynos9820-common" revision="banana" />
+    <project path="device/samsung/d2x" remote="github" name="BananaDroid-982x/android_device_samsung_d2x" revision="banana-oldaudio" />
+    <project path="device/samsung/d2s" remote="github" name="BananaDroid-982x/android_device_samsung_d2s" revision="banana-oldaudio" />
+    <project path="device/samsung/d1" remote="github" name="BananaDroid-982x/android_device_samsung_d1" revision="banana-oldaudio" />
+    <project path="device/samsung/beyond2lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond2lte" revision="banana-oldaudio" />
+    <project path="device/samsung/beyond1lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond1lte" revision="banana-oldaudio" />
+    <project path="device/samsung/beyond0lte" remote="github" name="BananaDroid-982x/android_device_samsung_beyond0lte" revision="banana-oldaudio" />
+    <project path="device/samsung/beyondx" remote="github" name="BananaDroid-982x/android_device_samsung_beyondx" revision="banana-oldaudio" />
+    <project path="device/samsung/f62" remote="github" name="BananaDroid-982x/android_device_samsung_f62" revision="banana-oldaudio" />
+    <project path="device/samsung/exynos9820-common" remote="github" name="BananaDroid-982x/android_device_samsung_exynos9820-common" revision="banana-oldaudio" />
     <project path="hardware/samsung" remote="github" name="BananaDroid-982x/android_hardware_samsung" revision="banana" />
 
     <!--Vendors Trees-->
@@ -24,7 +22,6 @@
     <project name="android_vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_d1"                path="vendor/samsung/d1"                remote="dependencies"       revision="lineage-21.0" />
-    <project name="proprietary_vendor_samsung_d1x"           path="vendor/samsung/d1x"               remote="d1x"                revision="lineage-21.0" />
     <project name="android_vendor_samsung_d2s"               path="vendor/samsung/d2s"               remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="dependencies"       revision="lineage-21.0" />
     <project name="android_vendor_samsung_f62"               path="vendor/samsung/f62"               remote="dependencies"       revision="lineage-21.0" />
